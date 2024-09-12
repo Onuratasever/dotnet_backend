@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="dapper" Version="2.1.35" />
     <PackageReference Include="microsoft.data.sqlclient" Version="5.2.2" />
     <PackageReference Include="microsoft.entityframeworkcore" Version="8.0.8" />
@@ -17,6 +18,7 @@
     <None Update="appsettings.json">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
+    <PackageReference Include="Newtonsoft.JSON" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
